@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0px;
+    background: whitesmoke;
+}
+:root{
+    /*--primary-color: #edf2f2;
+    --secondary-color: #212121;*/
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 84%;
+}
+nav ul{
+    text-align: right;
+    flex: 1;
+    display: flex;
+    
+}
+nav img{
+    width: 100px;
+    border-radius: 40px;
+    padding-right: 500px;
+    cursor: pointer;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    background: var(--primary-color);
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+.CV{
+    padding-top: 140px;
+    margin: 120px;
+}
+.CV h1{
+    color: var(--secondary-color);
+}
+.CV p{
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+.CV button{
+    width: 100px;
+    height: 40px;
+    background: black;
+    color: var(--primary-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.CV span{
+    color: red;
+}
+nav ul li:hover{
+    text-shadow: 2px 0 2px;
+    color: red;
+}
+nav ul img{
+    width: 18px;
+    height: 18px;
+}
+.img-box{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.img-box img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.img-box:hover .back-img{
+    left: 54%;
+}
+.social-links{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+.social-links a{
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin-right: 20px;
+}
+.social-links a:hover{
+    color: #ff4321;
+}
